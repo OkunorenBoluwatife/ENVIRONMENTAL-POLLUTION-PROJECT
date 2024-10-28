@@ -1,0 +1,176 @@
+div.fixed {
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    border: 5px solid green;
+    background-color: rgb(73, 240, 73);
+    width: 250px;
+    height: 400px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+
+div.absolute2 {
+    position: absolute;
+    top: 260px;
+    left: 350px;
+    border: 5px solid rgb(0, 177, 247);
+    background-color: rgb(158, 225, 252);
+    width: 700px;
+    height: 2320px;
+    font-size: 17px;
+}
+
+div.absolute {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    width: 1410px;
+    background-color: rgb(47, 207, 26);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.absolute1 {
+    position: absolute;
+    border: 5px solid rgb(0, 255, 64);
+    background-color: rgb(129, 255, 161);
+    width: 700px;
+    left: 350px;
+    top: 80px;
+    height:145px;
+    font-size: 17px;
+}
+
+div.absolute3 {
+    position: absolute;
+    top: 2625px;
+    left: 350px;
+    border: 5px solid rgb(255, 0, 0);
+    background-color: rgb(255, 161, 161);
+    width: 700px;
+    height: 3420px;
+    font-size: 17px;
+}
+
+div.absolute4 {
+    position: absolute;
+    top: 6090px;
+    left: 350px;
+    border: 5px solid yellow;
+    background-color: rgb(248, 248, 149);
+    width: 700px;
+    height: 2530px;
+    font-size: 17px;
+}
+
+div.absolute5 {
+    position: absolute;
+    top: 8660px;
+    left: 350px;
+    border: 5px solid rgb(167, 0, 167);
+    background-color: rgb(211, 152, 211);
+    width: 700px;
+    height: 4485px;
+    font-size: 17px;
+}
+
+div.absolute6 {
+    position: absolute;
+    top: 13600px;
+}
+
+div.fixed1 {
+    position: fixed;
+    top: 150px;
+    right: 8px;
+    color: black;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+    height: 300px;
+}
+
+@keyframes Sample {
+    0%{
+        background-color: rgb(21, 255, 0);
+    }
+
+    25%{
+        background-color: rgb(0, 119, 255);
+    }
+
+    50%{
+        background-color: rgb(207, 26, 26);
+    }
+
+    75%{
+        background-color: rgb(210, 224, 15);
+    }
+
+    100%{
+        background-image: rgb(206, 9, 206);
+    }
+}
+
+#div1 {
+    width: 1400px;
+    height: 13650px;
+    background-color: rgb(33, 228, 202);
+    animation-name: Sample;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+}
+
+a:hover {
+    color: orange;
+}
+
+div.absolute1::first-letter {
+    font-size: 25px;
+    color: white;
+}
+
+div.fixed:hover {
+    color: blue;
+    background-color: white;
+}
+
+h2 {
+    color: rgb(0, 177, 247);
+    font-size: 20px;
+}
+
+h3 {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+h4 {
+    color: yellow;
+    font-size: 20px;
+}
+
+h5 {
+    color: rgb(167, 0, 167);
+    font-size: 20px;
+}
+
+h6 {
+    color: orange;
+    font-size: 20px;
+}
+
+body {
+    height: 4000px;
+    width: 1400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to top, rgb(218, 203, 2), rgb(12, 199, 12), rgb(15, 184, 184));
+}
